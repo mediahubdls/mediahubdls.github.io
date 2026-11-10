@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>dark-channel-studio</title>
+<meta name="description" content="Ferramenta de uso próprio para produzir, publicar e acompanhar vídeos nos canais do YouTube do seu dono.">
+<style>
+  :root { --bg:#fbfaf7; --fg:#1f2328; --muted:#57606a; --link:#0b5cad; --line:#e3e0d8; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#16181c; --fg:#e6e6e6; --muted:#a0a6ad; --link:#6cb6ff; --line:#2c3036; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 1.9rem; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 32px 0 8px; }
+  p, li { color: var(--fg); }
+  .sub { color: var(--muted); margin: 0 0 24px; }
+  a { color: var(--link); }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>dark-channel-studio</h1>
+  <p class="sub">Ferramenta de uso próprio para produzir, publicar e acompanhar vídeos nos canais do YouTube do seu dono.</p>
+
+  <h2>O que é</h2>
+  <p>O dark-channel-studio é um sistema interno, usado apenas pelo seu dono e por pessoas convidadas por ele, para operar os canais do YouTube que pertencem a esse dono. Hoje ele opera o canal Finanças em Ordem; outros canais do mesmo dono serão incluídos no futuro. O sistema não é oferecido ao público e não tem cadastro aberto.</p>
+
+  <h2>O que ele faz</h2>
+  <ul>
+    <li>Ajuda a planejar, escrever, narrar e montar os vídeos dos canais do dono.</li>
+    <li>Envia e agenda esses vídeos no YouTube, sempre depois de o dono aprovar e pedir a publicação.</li>
+    <li>Lê as estatísticas dos próprios canais (visualizações, tempo assistido, retenção) para sugerir melhorias.</li>
+    <li>Consulta vídeos públicos de outros canais do mesmo assunto, só como inspiração de temas e estilos.</li>
+  </ul>
+  <p>Para isso usa os Serviços de API do YouTube (YouTube Data API e YouTube Analytics API).</p>
+
+  <h2>Privacidade</h2>
+  <p>Leia a <a href="privacidade.html">Política de Privacidade</a> para saber quais dados o sistema acessa, como usa, por quanto tempo guarda e como revogar o acesso.</p>
+
+  <h2>Contato</h2>
+  <p><a href="mailto:mediahubdls@gmail.com">mediahubdls@gmail.com</a></p>
+
+  <footer>
+    <p lang="en"><strong>English:</strong> dark-channel-studio is a private, internal tool used only by its owner (and people the owner invites) to produce, publish and track videos on the owner's own YouTube channels, using the YouTube API Services. It is not offered to the public. See the <a href="privacidade.html#english">Privacy Policy</a>.</p>
+  </footer>
+</main>
+</body>
+</html>
